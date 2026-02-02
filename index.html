@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For Kay 💙</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="hearts"></div>
+<div id="lockScreen">
+  <h1>💙 For Kay</h1>
+  <p>This page is only for you.</p>
+  <input type="password" id="password" placeholder="Enter the password">
+  <button onclick="unlock()">Enter</button>
+  <p id="error"></p>
+</div>
+
+<div id="content" class="hidden">
+  <h1>Hey Kay 💙</h1>
+  <p class="intro">
+    I made this just for you.  
+    Not to impress you — but to remind you how serious I am about us.
+  </p>
+
+  <div class="buttons">
+    <button onclick="showMessage(1)">When you feel insecure</button>
+    <button onclick="showMessage(2)">When you miss me</button>
+    <button onclick="showMessage(3)">Why I choose you</button>
+  </div>
+
+  <div id="messageBox"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
