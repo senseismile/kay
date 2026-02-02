@@ -1,4 +1,4 @@
-const PASSWORD = "kayonly"; // change if you want
+const PASSWORD = "onlykay"; // change if you want
 
 function unlock() {
   const input = document.getElementById("password").value;
@@ -37,3 +37,4 @@ function showMessage(type) {
     if (i >= text.length) clearInterval(interval);
   }, 30);
 }
+
